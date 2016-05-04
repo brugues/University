@@ -1,0 +1,5 @@
+Alfonso 100
+Josep 90
+Hola 19
+Adeu 20
+U 1
