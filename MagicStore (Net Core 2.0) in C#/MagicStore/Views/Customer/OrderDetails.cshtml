@@ -1,0 +1,56 @@
+﻿@model MagicStore.Models.Order
+@{
+    ViewData["Title"] = "Finish Order";
+}
+
+<h2>Order Details</h2>
+
+@{
+    if (@ViewBag.OrderID != null)
+    {
+        <h4>Your order (order @ViewBag.OrderID) has been processed correctly</h4>
+    }
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.First().Product.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.First().Store.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.First().Product.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Products.First().Quantity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Products)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Store.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h4> Total Price: @ViewBag.Price </h4>
+
+<a asp-controller="Customer" asp-action="Index">Go back</a></p>

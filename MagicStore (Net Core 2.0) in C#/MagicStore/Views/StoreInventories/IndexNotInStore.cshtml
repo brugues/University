@@ -1,0 +1,52 @@
+﻿@model IEnumerable<MagicStore.Models.OwnerInventory>
+
+@{
+    ViewData["Title"] = "Magic Store";
+}
+
+<h2>Owner Inventory</h2>
+
+@{if (Model.Count() == 0)
+    {
+        <p>It seems that there are no products available in the owner's inventory</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Product)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StockLevel)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Product.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StockLevel)
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.ProductID">Details</a>
+                            @{
+                                if (item.StockLevel > 0)
+                                {
+                                    <a asp-controller="StockRequests" asp-action="Create" asp-route-id="@item.ProductID" asp-route-store="2">| Request Item</a>
+                                }
+                            }
+                        </td>
+                    </tr>
+                  }
+            </tbody>
+        </table>
+     }
+}
+<a asp-area="" asp-controller="FranchiseHolder" asp-action="Index">Go back</a></p>

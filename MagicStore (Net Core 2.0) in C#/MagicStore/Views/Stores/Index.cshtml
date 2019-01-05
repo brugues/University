@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MagicStore.Models.Store>
+
+@{
+    ViewData["Title"] = "Magic Store";
+}
+
+<h2>Available Stores</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <p><a asp-controller="StoreInventories" asp-action="Index" asp-route-id="@item.StoreID" asp-route-search="all">Display Store Inventory</a></p>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

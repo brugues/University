@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "MagicStore - Checkout";
+}
+
+@section Checkout {
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+}
+
+<div class="creditCardForm">
+    <div class="heading">
+        <h1>Confirm Purchase</h1>
+    </div>
+    <div class="payment">
+        <form asp-action="FinishOrder">
+            <div class="form-group owner">
+                <label for="owner">Owner</label>
+                <input type="text" class="form-control" id="owner" pattern=".{5,}" required>
+            </div>
+            <div class="form-group CVV">
+                <label for="cvv">CVV</label>
+                <input type="text" class="form-control" id="cvv" pattern="[0-9]{3}" required>
+            </div>
+            <div class="form-group" id="card-number-field">
+                <label for="card-number">Card Number</label>
+                <input type="text" class="form-control" id="card-number" required>
+            </div>
+            <div class="form-group">
+                <label>Card Type</label>
+                <select id="card-type">
+                    <option selected="selected" value="Visa">Visa</option>
+                    <option value="MasterCard">Mastercard </option>
+                    <option value="DinersClub">Diners Club</option>
+                    <option value="CarteBlanche">Carte Blanche</option>
+                    <option value="AmEx">American Express</option>
+                    <option value="Discover">Discover</option>
+                    <option value="JCB">JCB</option>
+                    <option value="enRoute">en Route</option>
+                    <option value="Solo">Solo</option>
+                    <option value="Switch">Switch</option>
+                    <option value="Maestro">Maestro</option>
+                    <option value="VisaElectron">Visa Electron</option>
+                    <option value="LaserCard">LaserCard</option>
+                </select>
+            </div>
+            <div class="form-group" id="expiration-date">
+                <label>Expiration Date</label>
+                <select>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option selected="selected" value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select>
+                    <option value="18"> 2018</option>
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option selected="selected" value="21"> 2021</option>
+                    <option value="22"> 2022</option>
+                    <option value="23"> 2023</option>
+                </select>
+            </div>
+            <div class="form-group" id="pay-now">
+                <button type="submit" class="btn btn-default" onclick="return testCreditCard();">Purchase</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="~/js/site.js"></script>

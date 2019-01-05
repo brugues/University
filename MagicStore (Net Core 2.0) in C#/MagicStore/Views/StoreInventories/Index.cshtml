@@ -1,0 +1,74 @@
+﻿@model MagicStore.Controllers.PaginatedList<MagicStore.Models.StoreInventory>
+@{
+    ViewData["Title"] = "Magic Store";
+}
+
+<h2>Store Inventory</h2>
+
+
+@{
+    if (!Model.Any())
+    {
+        <p>It seems that there are no products in this store</p>
+    }
+    else
+    {
+        <form method="get">
+            <div class="form-actions no-color">
+                <p>
+                    Find by name: <input type="text" name="search" value="" />
+                    <input type="submit" value="Search" class="btn btn-default" />
+                </p>
+            </div>
+        </form>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Product)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().StockLevel)
+                </th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Product.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StockLevel)
+                    </td>
+                    @if (User.IsInRole(MagicStore.Data.Constants.CustomerRole))
+                    {
+                        <td>
+                            <a asp-controller="Customer" asp-action="AddToCart" asp-route-id="@item.ProductID" asp-route-store="@item.StoreID">Add to Cart</a>
+                        </td>
+                    }
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+}
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-page="@(Model.PageIndex - 1)"
+   class="btn btn-default @prevDisabled">
+    Previous
+</a>
+<a asp-action="Index"
+   asp-route-page="@(Model.PageIndex + 1)"
+   class="btn btn-default @nextDisabled">
+    Next
+</a>

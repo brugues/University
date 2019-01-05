@@ -1,0 +1,29 @@
+﻿@model MagicStore.Models.OwnerInventory
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OwnerInventory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StockLevel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StockLevel)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Product)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Product.ProductID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to Inventory</a>
+</div>

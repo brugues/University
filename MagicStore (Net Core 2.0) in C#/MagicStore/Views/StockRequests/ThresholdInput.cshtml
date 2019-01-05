@@ -1,0 +1,17 @@
+﻿@model MagicStore.Models.ThresholdInput
+@{
+    ViewData["Title"] = "Magic Store";
+}
+
+
+<h4>Stock Request</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="IndexThreshold" asp-controller="StoreInventories" method="post">
+            <input asp-for="Threshold" type="number" id="threshold" placeholder="Enter the desired threshold" />
+            <input type="submit" />
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,12 @@
+C:\Users\Pep\Desktop\MagicStore\MagicStore\bin\Debug\netcoreapp2.0\MagicStore.deps.json
+C:\Users\Pep\Desktop\MagicStore\MagicStore\bin\Debug\netcoreapp2.0\MagicStore.runtimeconfig.json
+C:\Users\Pep\Desktop\MagicStore\MagicStore\bin\Debug\netcoreapp2.0\MagicStore.runtimeconfig.dev.json
+C:\Users\Pep\Desktop\MagicStore\MagicStore\bin\Debug\netcoreapp2.0\MagicStore.dll
+C:\Users\Pep\Desktop\MagicStore\MagicStore\bin\Debug\netcoreapp2.0\MagicStore.pdb
+C:\Users\Pep\Desktop\MagicStore\MagicStore\obj\Debug\netcoreapp2.0\MagicStore.csproj.CoreCompileInputs.cache
+C:\Users\Pep\Desktop\MagicStore\MagicStore\obj\Debug\netcoreapp2.0\MagicStore.AssemblyInfoInputs.cache
+C:\Users\Pep\Desktop\MagicStore\MagicStore\obj\Debug\netcoreapp2.0\MagicStore.AssemblyInfo.cs
+C:\Users\Pep\Desktop\MagicStore\MagicStore\obj\Debug\netcoreapp2.0\MagicStore.dll
+C:\Users\Pep\Desktop\MagicStore\MagicStore\obj\Debug\netcoreapp2.0\MagicStore.pdb
+C:\Users\Pep\Desktop\MagicStore\MagicStore\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Pep\Desktop\MagicStore\MagicStore\obj\Debug\netcoreapp2.0\MagicStore.csprojAssemblyReference.cache

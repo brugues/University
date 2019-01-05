@@ -1,0 +1,59 @@
+﻿@model List<MagicStore.Models.ProductOrder>
+@{
+    ViewData["Title"] = "Magic Store";
+}
+
+<h2>Magic Store</h2>
+
+@{
+    if (!Model.Any())
+    {
+        <p>It seems that there are any products</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().Product.Name)
+                    </th>
+                    <th>
+                        Store
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().Product.Price)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().Quantity)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Product.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Store.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Product.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                        <td>
+                            <a asp-action="DeleteProduct" asp-route-id="@item.ProductID">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <input type="button" value="Checkout" onclick="location.href='@Url.Action("Checkout", "Customer")'" />
+    }
+}
+

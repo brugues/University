@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "Order History";
+}
+
+<script src="~/js/angular.min.js"></script>
+
+<div ng-app="magicstore" ng-controller="history">
+    <h2>Order History</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Date and Time</th>
+                <th>Price</th>
+            </tr>
+        <thead>
+        <tbody>
+            <tr ng-repeat="x in orders">
+                <td>{{ x.orderID }}</td>
+                <td>{{ x.datetime.slice(0, 10) | date:'dd/MM/yyyy'}}</td>
+                <td>{{ x.price | currency }}</td>
+                <td><a href="/Customer/OrderDetails/{{x.orderID}}">Details</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    var app = angular.module("magicstore", []);
+    app.controller("history", function ($scope, $http) {
+        $http.get("/Customer/OrderHistory").then(function (response) {
+            $scope.orders = response.data;
+        });
+        
+    });
+</script>
