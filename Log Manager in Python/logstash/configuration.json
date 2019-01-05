@@ -1,0 +1,20 @@
+{
+  "syslog":{
+    "active": false,
+    "directory": "/Users/Josep/Desktop/LogGenerators/syslog-generator-master/"
+  },
+
+  "dns": {
+    "active": false,
+    "directory": "/Users/Josep/Desktop/LogGenerators/dns-generator/"
+  },
+
+  "http":{
+    "active": true,
+    "directory": "/Users/Josep/Desktop/LogGenerators/Fake-Apache-Log-Generator-master/"
+  },
+
+  "elasticsearch":{
+    "directory": "/Users/Josep/Documents/GitHub/log-gestor/elasticsearch/"
+  }
+}

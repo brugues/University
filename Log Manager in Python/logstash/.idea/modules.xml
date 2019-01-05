@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/LogGenerators/Fake-Apache-Log-Generator-master/.idea/Fake-Apache-Log-Generator-master.iml" filepath="$USER_HOME$/Desktop/LogGenerators/Fake-Apache-Log-Generator-master/.idea/Fake-Apache-Log-Generator-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../elasticsearch/.idea/elasticsearch.iml" filepath="$PROJECT_DIR$/../elasticsearch/.idea/elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/logstash.iml" filepath="$PROJECT_DIR$/.idea/logstash.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/LogGenerators/syslog-generator-master/.idea/syslog-generator-master.iml" filepath="$USER_HOME$/Desktop/LogGenerators/syslog-generator-master/.idea/syslog-generator-master.iml" />
+    </modules>
+  </component>
+</project>

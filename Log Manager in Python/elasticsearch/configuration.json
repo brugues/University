@@ -1,0 +1,7 @@
+{
+  "directory": "/Users/Josep/Documents/GitHub/log-gestor/elasticsearch/",
+  "types_logs": ["dns", "syslog", "http"],
+  "dns": ["timestamp", "clientIP", "protocol", "send_receive", "record_type", "flag", "domain"],
+  "syslog": " 2",
+  "http": ["clientIP", "identity", "username", "timestamp", "request", "status_code", "size_response", "url", "useragent"]
+}
