@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  Jigsaw Catcher
+
+  Created by Josep Brugués i Pujolràs on 9/2/18.
+  Copyright © 2018 Josep Brugués i Pujolràs. All rights reserved.
+*/
+
+/* Game View Controller Alerts */
+"generateErrorRetrievingGameAlert" = "Error descargando los datos del rompecabezas. Revisa que estés conectado e intentalo más tarde.";
+
+"generateGameFinishAlert" = "Enhorabuena! Has encontrado todas las partes. Puedes crear un nuevo rompecabezas volviendo al menú principal.";
+
+"generateGameFinishTitle" = "Rompezacebas Acabado";
+
+"errorMessageLocationAccess" = "Da acceso a la localización en la aplicación de Configuración para poder jugar.";
+
+"locationAccesMessage" = "Atención";
+
+/* Register With Email View Controller Alerts */
+"errorCreatingAccount" = "Porfavor, entra todos los datos necesarios.";
+
+"usernameAlreadyExists" = "Este nombre de usuario ya existe.";
+
+/* Reset Password View Controller */
+"noEmailMessage" = "Necesitat proveer un correo.";
+
+"recoveryEmailSent" = "Un correo de recuperación ha sido enviado. Revisa tu buzón de entrada.";
+
+"completed" = "Completado";
+
+/* Create Game View Controller */
+"CreatingGame..." = "Creando Rompecabezas...";
+
+"serverProblem" = "Hay un problema con el servidor. Tu juego no puede ser creado en estos momentos.";
+
+"invalidLocation" = "Localización inválida";
+
+"invalidLocationMessage" = "Tienes que proporcionar una localización para el juego";
+
+"invalidRadius" = "Radio inválido";
+
+"invalidRadiusMessage" = "Tienes que proporcionar un radio (en KM) para tu juego";
+
+"invalidName" = "Nombre inválido";
+
+"invalidNameMessage" = "Tienes que proporcionar un nombre para tu juego";
+
+/* Change Password From Settings View Controller */
+"shortPassword" = "Contraseña demasiado corta";
+
+"passwordChanged" = "Contraseña cambiada";
+
+"passwordChangedMessage" = "Contraseña cambiada correctamente";
+
+/* Change Email From Settings View Controller */
+"AlertTitle" = "Alerta";
+
+"needToProvideEmailAlertMessage" = "Necesitas proporcionar un correo nuevo y confirmar éste.";
+
+"providedEmailIsDifferent" = "El correo proporcionado es diferente al correo de la cuenta.";
+
+"providedEmailsAreDifferent" = "Los correos que has proporcionado son diferentes. Revísalos para proceder con el cambio.";
+
+"EmailChanged" = "Correo Cambiado";
+
+"EmailChangedCorrectly" = "El correo de tu cuenta ha sido cambiado.";
+
+/* User Settings View Controller */
+"googleAuth" = "Estás autenticado con una cuenta de Google, así que no puedes cambiar tu contraseña o correo.";

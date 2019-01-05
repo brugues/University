@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>222684141257-52olhablt06hdt3jgfeischvb9d36m5b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.222684141257-52olhablt06hdt3jgfeischvb9d36m5b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCblD3U6wEmMKf4kmPKjNALK9A9iszJuEk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>222684141257</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>josep.jigsawcatcher.com.Jigsaw-Catcher</string>
+	<key>PROJECT_ID</key>
+	<string>jigsawcatcher</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jigsawcatcher.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:222684141257:ios:39f68b25efd77ca7</string>
+	<key>DATABASE_URL</key>
+	<string>https://jigsawcatcher.firebaseio.com</string>
+</dict>
+</plist>

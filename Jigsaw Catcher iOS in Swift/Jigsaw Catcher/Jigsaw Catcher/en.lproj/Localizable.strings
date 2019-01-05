@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  Jigsaw Catcher
+
+  Created by Josep Brugués i Pujolràs on 9/2/18.
+  Copyright © 2018 Josep Brugués i Pujolràs. All rights reserved.
+*/
+
+/* Game View Controller Alerts */
+"generateErrorRetrievingGameAlert" = "Error retrieving your game. Check your Internet connection and try again later.";
+
+"generateGameFinishAlert" = "Congratulations! You have found all the parts. You can create a new game by going back to the main view.";
+
+"generateGameFinishTitle" = "Jigsaw Finished";
+
+"errorMessageLocationAccess" = "Give acces to location in the Settings App in order to play the game";
+
+"locationAccesMessage" = "Attention";
+
+/* Register With Email View Controller Alerts */
+"errorCreatingAccount" = "Please enter all the required data.";
+
+"usernameAlreadyExists" = "Username already exists.";
+
+/* Reset Password View Controller */
+"noEmailMessage" = "You need to provide an email.";
+
+"recoveryEmailSent" = "A recovery email has been sent to you. Check your inbox.";
+
+"completed" = "Completed";
+
+/* Create Game View Controller */
+"creatingGame" = "Creating Game...";
+
+"serverProblem" = "There's a problem with the server. Your game can't be created";
+
+"invalidLocation" = "Invalid Location";
+
+"invalidLocationMessage" = "You have to provide a location for your game";
+
+"invalidRadius" = "Invalid Radius";
+
+"invalidRadiusMessage" = "You have to provide a radius (in Km's) for your game";
+
+"invalidName" = "Invalid Name";
+
+"invalidNameMessage" = "You have to provide a name for your game";
+
+/* Change Password From Settings Controller */
+"shortPassword" = "Short Password";
+
+"passwordChanged" = "Password Changed";
+
+"passwordChangedMessage" = "Your account's password has been changed";
+
+/* Change Email From Settings View Controller */
+"AlertTitle" = "Alert";
+
+"needToProvideEmailAlertMessage" = "You need to provide a new email and confirm that email.";
+
+"providedEmailIsDifferent" = "The email provided is different than the account's email.";
+
+"providedEmailsAreDifferent" = "The emails you provided are different. Check them out in order to proceed.";
+
+"EmailChanged" = "Email Changed";
+
+"EmailChangedCorrectly" = "Your account's email has been changed.";
+
+/* User Settings View Controller */
+"googleAuth" = "You are authenticated with a Google Account, so you can't change your password or email.";

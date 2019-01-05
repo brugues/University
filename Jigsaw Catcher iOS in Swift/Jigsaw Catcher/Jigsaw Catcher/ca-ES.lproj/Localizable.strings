@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  Jigsaw Catcher
+
+  Created by Josep Brugués i Pujolràs on 9/2/18.
+  Copyright © 2018 Josep Brugués i Pujolràs. All rights reserved.
+*/
+
+/* Game View Controller Alerts */
+"generateErrorRetrievingGameAlert" = "Error al descarregar la informació del trencaclosques. Revisa que estiguis connectat i torna-ho a intentar.";
+
+"generateGameFinishAlert" = "Enhorabona! Has trobat totes les parts. Pots crear un nou trencaclosques tornant al menú principal.";
+
+"generateGameFinishTitle" = "Trencaclosques Acabat";
+
+"errorMessageLocationAccess" = "Dóna accés a la localització des de l'aplicació de Configuració per tal de poder jugar.";
+
+"locationAccesMessage" = "Atenció";
+
+/* Register With Email View Controller Alerts */
+"errorCreatingAccount" = "Sisplau, entra totes les dades necessàries.";
+
+"usernameAlreadyExists" = "Aquest nom d'usuari ja existeix.";
+
+/* Reset Password View Controller */
+"noEmailMessage" = "Has de proporcionar un correu.";
+
+"recoveryEmailSent" = "Un correu de recuperació ha estat enviat. Revisa la teva bústia d'entrada.";
+
+"completed" = "Completat";
+
+/* Create Game View Controller */
+"Creating Game..." = "Creant Trencaclosques...";
+
+"serverProblem" = "Sembla ser que hi ha un problema amb el servidor. El teu joc no pot ser creat en aquests moments.";
+
+"invalidLocation" = "Localització invàlida";
+
+"invalidLocationMessage" = "Has de proporcionar una localització vàlida per al teu joc";
+
+"invalidRadius" = "Radi invàlid";
+
+"invalidRadiusMessage" = "Has de proporcionar un radi (en KM) per el teu joc";
+
+"invalidName" = "Nom invàlid";
+
+"invalidNameMessage" = "Has de proporcionar un nom pel teu joc.";
+
+/* Change Password From Settings View Controller */
+"shortPassword" = "Contrasenya massa curta";
+
+"passwordChanged" = "Constrasenya canviada";
+
+"passwordChangedMessage" = "Contrasenya canviada correctament";
+
+/* Change Email From Settings View Controller */
+"AlertTitle" = "Alerta";
+
+"needToProvideEmailAlertMessage" = "Has de proporcionar un nou correu i confirmar-lo.";
+
+"providedEmailsAreDifferent" = "Els correus que has proporcionat no coincideixen. Revisa-ho per tal de procedir amb el canvi.";
+
+"providedEmailIsDifferent" = "El correu que has proporcionat és diferent al correu del compte.";
+
+"EmailChanged" = "Correu Canviat";
+
+"EmailChangedCorrectly" = "El correu del teu compte ha estat canviat correctament.";
+
+/* User Settings View Controller */
+"googleAuth" = "Estàs autenticat amb un compte de Google, per tant no pots canviar ni la contrasenya ni el correu.";

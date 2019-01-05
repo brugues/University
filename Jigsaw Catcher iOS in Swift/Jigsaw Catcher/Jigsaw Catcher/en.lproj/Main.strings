@@ -1,0 +1,168 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "2Pf-qM-JLl"; */
+"2Pf-qM-JLl.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "2WV-eM-9nk"; */
+"2WV-eM-9nk.placeholder" = "Password";
+
+/* Class = "UITextField"; text = "Already a member? Login now!"; ObjectID = "3eB-8r-cWs"; */
+"3eB-8r-cWs.text" = "Already a member? Login now!";
+
+/* Class = "UIButton"; normalTitle = "Create Game"; ObjectID = "3zk-0N-9sO"; */
+"3zk-0N-9sO.normalTitle" = "Create Game";
+
+/* Class = "UITextField"; text = "Not a member? Create an account now!"; ObjectID = "4st-Y0-UiZ"; */
+"4st-Y0-UiZ.text" = "Not a member? Create an account now!";
+
+/* Class = "UITextField"; placeholder = "Location, e.g Melbourne, VIC"; ObjectID = "4uR-eg-1JG"; */
+"4uR-eg-1JG.placeholder" = "Location, e.g Melbourne, VIC";
+
+/* Class = "UIViewController"; title = "RegisterWithEmailViewController"; ObjectID = "5hf-db-03G"; */
+"5hf-db-03G.title" = "RegisterWithEmailViewController";
+
+/* Class = "UITextField"; text = "Log out"; ObjectID = "6Kh-Cm-T2g"; */
+"6Kh-Cm-T2g.text" = "Log out";
+
+/* Class = "UITextField"; text = "Forgot your password?"; ObjectID = "6mZ-WI-tem"; */
+"6mZ-WI-tem.text" = "Forgot your password?";
+
+/* Class = "UISearchBar"; placeholder = "Search your games"; ObjectID = "7RE-Fe-YrV"; */
+"7RE-Fe-YrV.placeholder" = "Search your games";
+
+/* Class = "UISearchBar"; 7RE-Fe-YrV.scopeButtonTitles[0] = "Name"; ObjectID = "7RE-Fe-YrV"; */
+"7RE-Fe-YrV.scopeButtonTitles[0]" = "Name";
+
+/* Class = "UISearchBar"; 7RE-Fe-YrV.scopeButtonTitles[1] = "Location"; ObjectID = "7RE-Fe-YrV"; */
+"7RE-Fe-YrV.scopeButtonTitles[1]" = "Location";
+
+/* Class = "UITextField"; text = "Game Location"; ObjectID = "7nZ-dt-8rF"; */
+"7nZ-dt-8rF.text" = "Game Location";
+
+/* Class = "UIViewController"; title = "New Game"; ObjectID = "8rJ-Kc-sve"; */
+"8rJ-Kc-sve.title" = "New Game";
+
+/* Class = "UITextField"; text = "Forgot your password?"; ObjectID = "9ML-8P-Lk2"; */
+"9ML-8P-Lk2.text" = "Forgot your password?";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "ADd-Bj-CSp"; */
+"ADd-Bj-CSp.normalTitle" = "Login";
+
+/* Class = "UITabBarItem"; title = "Settings & Profile"; ObjectID = "BBY-wp-1al"; */
+"BBY-wp-1al.title" = "Settings & Profile";
+
+/* Class = "UIViewController"; title = "Change Password"; ObjectID = "BUT-Ow-EMZ"; */
+"BUT-Ow-EMZ.title" = "Change Password";
+
+/* Class = "UITextField"; text = "Change Password"; ObjectID = "DFj-dX-YI4"; */
+"DFj-dX-YI4.text" = "Change Password";
+
+/* Class = "UIViewController"; title = "LogOutFromSettings"; ObjectID = "DXB-Kr-ZKc"; */
+"DXB-Kr-ZKc.title" = "LogOutFromSettings";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "DzE-gq-JFf"; */
+"DzE-gq-JFf.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Select Image"; ObjectID = "H5K-BI-MLl"; */
+"H5K-BI-MLl.normalTitle" = "Select Image";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "HPm-6G-nW1"; */
+"HPm-6G-nW1.normalTitle" = "Change Password";
+
+/* Class = "UITextField"; text = "Send Password Recovery Email"; ObjectID = "Hvk-q8-mOE"; */
+"Hvk-q8-mOE.text" = "Send Password Recovery Email";
+
+/* Class = "UITextField"; text = "Logging out..."; ObjectID = "K8F-bW-GB5"; */
+"K8F-bW-GB5.text" = "Logging out...";
+
+/* Class = "UINavigationItem"; title = "Games"; ObjectID = "Kz0-yL-2nm"; */
+"Kz0-yL-2nm.title" = "Games";
+
+/* Class = "UITableViewController"; title = "Settings Table View Controller"; ObjectID = "Mwx-HJ-IcH"; */
+"Mwx-HJ-IcH.title" = "Settings Table View Controller";
+
+/* Class = "UITextField"; text = "You can login here"; ObjectID = "Nkf-Oi-JEf"; */
+"Nkf-Oi-JEf.text" = "You can login here";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "QP2-4m-WSX"; */
+"QP2-4m-WSX.placeholder" = "Email";
+
+/* Class = "UIViewController"; title = "Change Email"; ObjectID = "T03-6H-UU2"; */
+"T03-6H-UU2.title" = "Change Email";
+
+/* Class = "UITextField"; text = "Change Email"; ObjectID = "URe-Po-CEN"; */
+"URe-Po-CEN.text" = "Change Email";
+
+/* Class = "UITabBarItem"; title = "Jigsaws"; ObjectID = "bEu-gJ-ysI"; */
+"bEu-gJ-ysI.title" = "Jigsaws";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "bNt-Yc-xgE"; */
+"bNt-Yc-xgE.placeholder" = "Username";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "cAs-UA-2is"; */
+"cAs-UA-2is.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Radius, in km"; ObjectID = "dyd-og-I5i"; */
+"dyd-og-I5i.placeholder" = "Radius, in km";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "eHB-Tb-AJH"; */
+"eHB-Tb-AJH.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "eyW-Zh-VVE"; */
+"eyW-Zh-VVE.placeholder" = "New Password";
+
+/* Class = "UIViewController"; title = "Recover Password"; ObjectID = "gGn-9M-AZy"; */
+"gGn-9M-AZy.title" = "Recover Password";
+
+/* Class = "UIViewController"; title = "LoginWithEmailViewController"; ObjectID = "gZo-nV-R5r"; */
+"gZo-nV-R5r.title" = "LoginWithEmailViewController";
+
+/* Class = "UIButton"; normalTitle = "Restore No-Ads purchase"; ObjectID = "ik4-PI-nsO"; */
+"ik4-PI-nsO.normalTitle" = "Restore No-Ads purchase";
+
+/* Class = "UITextField"; placeholder = "Old password"; ObjectID = "jsk-Wh-gLW"; */
+"jsk-Wh-gLW.placeholder" = "Old password";
+
+/* Class = "UITextView"; text = "Introduce the required Information to create a game"; ObjectID = "kMb-UC-0Y3"; */
+"kMb-UC-0Y3.text" = "Introduce the required Information to create a game";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "kOU-el-Bwp"; */
+"kOU-el-Bwp.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Send Recovery Email"; ObjectID = "kRz-iB-b2c"; */
+"kRz-iB-b2c.normalTitle" = "Send Recovery Email";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "nwC-NU-PB5"; */
+"nwC-NU-PB5.title" = "Settings";
+
+/* Class = "UITabBarItem"; title = "Settings & Profile"; ObjectID = "qS7-n7-pW8"; */
+"qS7-n7-pW8.title" = "Settings & Profile";
+
+/* Class = "UISegmentedControl"; rrT-c0-gIH.segmentTitles[0] = "Custom Location"; ObjectID = "rrT-c0-gIH"; */
+"rrT-c0-gIH.segmentTitles[0]" = "Custom Location";
+
+/* Class = "UISegmentedControl"; rrT-c0-gIH.segmentTitles[1] = "Current Location"; ObjectID = "rrT-c0-gIH"; */
+"rrT-c0-gIH.segmentTitles[1]" = "Current Location";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "sfi-IV-jDl"; */
+"sfi-IV-jDl.normalTitle" = "Create Account";
+
+/* Class = "UITableViewController"; title = "GameList"; ObjectID = "sqU-pe-SpD"; */
+"sqU-pe-SpD.title" = "GameList";
+
+/* Class = "UITextField"; placeholder = "Game Name"; ObjectID = "v6D-w6-S7W"; */
+"v6D-w6-S7W.placeholder" = "Game Name";
+
+/* Class = "UITextField"; text = "Not a member? Create an account now!"; ObjectID = "xpL-vf-B5d"; */
+"xpL-vf-B5d.text" = "Not a member? Create an account now!";
+
+/* Class = "UITabBarItem"; title = "Jigsaws"; ObjectID = "xvS-C2-TfG"; */
+"xvS-C2-TfG.title" = "Jigsaws";
+
+/* Class = "UIButton"; normalTitle = "Change Email"; ObjectID = "y6Z-al-7eX"; */
+"y6Z-al-7eX.normalTitle" = "Change Email";
+
+/* Class = "UIButton"; normalTitle = "Send Recovery Email"; ObjectID = "yX2-1R-gtj"; */
+"yX2-1R-gtj.normalTitle" = "Send Recovery Email";
+
+/* Class = "UIButton"; normalTitle = "Remove advertisements"; ObjectID = "znJ-fc-BBh"; */
+"znJ-fc-BBh.normalTitle" = "Remove advertisements";
